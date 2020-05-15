@@ -50,7 +50,6 @@ class Author(models.Model):
     gender = models.CharField(max_length=25, choices=GENDER_CHOICES, default=None)
     birth_date = models.DateField(blank=False, null=False)
 
-
     def __str__(self):
         return self.last_name
 

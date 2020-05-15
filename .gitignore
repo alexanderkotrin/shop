@@ -194,24 +194,10 @@ pyvenv.cfg
 .env
 .venv
 env/
+venv/
 ENV/
 env.bak/
 venv.bak/
 pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/git,venv,django,python,pycharm
-/venv/bin/activate
-/venv/bin/activate.csh
-/venv/bin/activate.fish
-/venv/bin/Activate.ps1
-/venv/bin/django-admin
-/venv/bin/django-admin.py
-/venv/bin/easy_install
-/venv/bin/easy_install-3.8
-/venv/bin/pip
-/venv/bin/pip3
-/venv/bin/pip3.8
-/venv/bin/python
-/venv/bin/python3
-/venv/bin/python3.8
-/venv/bin/sqlformat

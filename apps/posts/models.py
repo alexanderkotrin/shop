@@ -1,9 +1,9 @@
 from django.conf import settings
 from django.db import models
-# from django.forms import ModelForm
-# from django import datetime
+
 
 STATUS_CHOICES = [
+
     ('d', 'Draft'),
     ('p', 'Published'),
     ('w', 'Withdrawn')
@@ -52,6 +52,3 @@ class Author(models.Model):
 
     def __str__(self):
         return self.last_name
-
-
-
